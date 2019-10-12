@@ -10,13 +10,4 @@ html(lang="en")
   body
     .wrapper
       .maincontent
-        header.header
-          .container
-            .logo
-              a.logo__link(href="#") AN
-            .menu
-              ul.menu__list
-                li.menu__item
-                  a.menu__link(href="#") Главная
-                li.menu__item
-                  a.menu__link(href="#") Обо мне
+        include ./components/header.pug
